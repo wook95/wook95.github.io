@@ -3,7 +3,7 @@ module.exports = {
   description: `Blog posted about ...`,
   author: `[Wookchang Lee]`,
   introduction: `개발자 지망생 이욱창입니다.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  siteUrl: `https://wook95.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `https://github.com/wook95`, // Your GitHub account
@@ -22,7 +22,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: 'wook95',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
