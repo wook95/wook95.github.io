@@ -6,7 +6,7 @@ module.exports = {
   siteUrl: `https://wook95.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/wook95`, // Your GitHub account
+    github: `wook95`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
