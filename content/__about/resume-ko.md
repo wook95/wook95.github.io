@@ -16,6 +16,13 @@ lang: 'en'
 
 성장하고싶습니다.
 
-_Thank you for reading my resume. If you want to contact me, Please send me an email._
+## Contact
+
+|            |                             |
+| :--------: | --------------------------- |
+| **Email**  | <uclee95@gmail.com>         |
+| **GitHub** | <https://github.com/wook95> |
+
+_감사합니다_
 
 </div>
