@@ -1,5 +1,5 @@
 ---
-title: 시멘틱 웹 ( img, background-image 뭐가 다를까)!
+title: 시맨틱 웹 ( img, background-image 뭐가 다를까)!
 date: 2021-08-18 16:08:76
 category: HTML
 thumbnail: { thumbnailSrc }
