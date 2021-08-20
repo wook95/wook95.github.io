@@ -1,13 +1,10 @@
 ---
 title: netlify로 HTML,CSS,javascript 5분만에 배포해보자 !
-date: 2021-08-20 20:08:47
-category: 배포
+date: 2021-08-20 21:08:65
+category: Deploy
 thumbnail: { thumbnailSrc }
 draft: false
 ---
-
-
-
 
 html과 css 자바스크립트로 만든 제 자기 소개 페이지를 배포하려다가 어려움을 겪게 되어서 공유합니다
 
