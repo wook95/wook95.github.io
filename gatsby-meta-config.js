@@ -2,7 +2,7 @@ module.exports = {
   title: `Wook.log`,
   description: `Blog posted about ...`,
   author: `[Wookchang Lee]`,
-  introduction: `개발자 지망생 이욱창입니다.`,
+  introduction: `프론트엔드 새싹 프론트엔드 꿈나무`,
   siteUrl: `https://wook95.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
