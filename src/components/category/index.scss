@@ -34,7 +34,22 @@
 }
 
 .category-container::-webkit-scrollbar {
-  display: none; // Safari and Chrome
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+}
+
+.category-container::-webkit-scrollbar-thumb {
+  border-radius: 3.5px;
+  background-color: #ced4da;
+
+  &:hover {
+    background-color: #adb5bd;
+  }
+}
+
+.category-container::-webkit-scrollbar-track {
+  background-color: #fff;
 }
 
 .category-container {
