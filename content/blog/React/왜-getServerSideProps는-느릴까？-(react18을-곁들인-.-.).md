@@ -3,7 +3,7 @@ title: 왜 getServerSideProps는 느릴까？ (react18을 곁들인 . .)
 date: 2022-03-31 19:29:05
 category: React
 thumbnail: { thumbnailSrc }
-draft: false
+draft: true
 ---
 
 ![](../../assets/getServerProp.png)
