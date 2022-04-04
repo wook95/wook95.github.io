@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://wook95.github.io/React/왜-getServerSideProps는-느릴까？-(react18을-곁들인-.-.)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/Javascript/실행-컨텍스트란-뭘까/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/Trouble shooting/next-배포중-replaceAll-is-not-a-function-에러/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/Retrospective/개발-공부-2021년-회고/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/Retrospective/위코드 풀스택2기 1차 프로젝트 회고/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/Trouble shooting/프리즈마-p1003-에러를-해결하기까지/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/Javascript/자바스크립트와-비동기!/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/Javascript/addeventlistner에-파라미터가-있는-콜백함수-넘기기!-(재사용-가능))/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/git/깃허브-저도-한번-써보겠습니다🐱🐙/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/Deploy/netlify로-html,css,javascript-5분만에-배포해보자-!/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/HTML/css-내-맘대로-이동할거야!/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/HTML/시맨틱-웹-(-img,-background-image-뭐가-다를까)!/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wook95.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
