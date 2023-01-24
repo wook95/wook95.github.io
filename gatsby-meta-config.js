@@ -1,5 +1,5 @@
 module.exports = {
-  title: `Wook.log`,
+  title: `wook's coding note`,
   description: `개발 일지`,
   author: `[Wookchang Lee]`,
   introduction: `프론트엔드 새싹 프론트엔드 꿈나무`,

@@ -6,7 +6,7 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-![thumbnail](./images/thumbnail.png)
+![thumbnail](../../assets/zone-angular-cdr.png)
 
 ### zone
 
@@ -50,7 +50,7 @@ state, props의 변경과 부모컴포넌트의 재랜더링은 자식 컴포넌
 
 ### 변경감지 전략
 
-![cds.png](./images/cds.png)
+![cds.png](../../assets/cds.png)
 
 앵귤러는 change detection이 시작되면, 루트부터 모든 컴포넌트를 순회한다.
 
@@ -90,7 +90,7 @@ state, props의 변경과 부모컴포넌트의 재랜더링은 자식 컴포넌
 
 변경감지를 세밀하게 조정할 수 있는 객체이다.
 
-![cdr.png](./images/cdr.png)
+![cdr.png](../../assets/cdr.png)
 
 1. `detach` 메소드를 통해 변경감지 트리에서 분리할 수 있다.
 
