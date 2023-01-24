@@ -1,4 +1,141 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Wook.log]]></title><description><![CDATA[개발 일지]]></description><link>https://wook95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 12 Jan 2023 08:14:42 GMT</lastBuildDate><item><title><![CDATA[왜 getServerSideProps는 느릴까？ (react18을 곁들인 . .)]]></title><description><![CDATA[getServerSideProps 안에서 API 패칭을 하였고, 배포를 했을때 속도가 상당히 느려졌다. 가설1. CDN설정..? CDN 문제라면 getStaticProps…]]></description><link>https://wook95.github.io/React/왜-getServerSideProps는-느릴까？-(react18을-곁들인-.-.)/</link><guid isPermaLink="false">https://wook95.github.io/React/왜-getServerSideProps는-느릴까？-(react18을-곁들인-.-.)/</guid><pubDate>Thu, 31 Mar 2022 19:29:05 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[wook's coding note]]></title><description><![CDATA[개발 일지]]></description><link>https://wook95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Jan 2023 06:56:30 GMT</lastBuildDate><item><title><![CDATA[zone, 앵귤러의 변경감지 알아보자 !]]></title><description><![CDATA[zone 은 비동기 실행들을 하나의 맥락(실행 컨텍스트)으로 다룰 수 있도록 해준다. 비동기 api들을 런타임(코드가 실행이 될 때)에 코드의 동작을 동적으로 업데이트() 해서, zone 자신의 api로 바꿔버려(), 비동기 api…]]></description><link>https://wook95.github.io/angular/zone,-앵귤러의-변경감지-알아보자-!/</link><guid isPermaLink="false">https://wook95.github.io/angular/zone,-앵귤러의-변경감지-알아보자-!/</guid><pubDate>Tue, 24 Jan 2023 11:01:47 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1ElEQVQoz42TT08TQRjGx4MnvwEHTYzx43j0W6AfoAdFgwfBxNpgiViJhosmxmrUqKCpQSGixm3VICsFIgJtkXZ3Z/ZPC+Xnu0uQNGnVwy/P7uy8zzwz+47SOqLVXIeduYR2axFjmoIWzJ7qTnQ8rve/d6Ja0SrvCyeYfKCYeX4Ya/oIuvECrduCK+iuxMW6i6kYLjM71cfdW4r8hGIqfwiv/pBqzRBFPkEQJPi+TxjGGvY0Swy1bM+tF3A3RwidMYzziMpGmWplgVr1u6id6NavJRm3Rct4ntM7IbsOudwN+s9eoP/MOS4PjZJKnSebHSOdTstzisy1jMzJMTBwkfHxURr1lSRpV8MwDNlYK/K1lMf6eB+nXqSyPitJLL7NW1jFN9hLn/hcfEt50eLn6hccpyrFfg/DYJPSu1MUnhzlw+uTlGaOMf3sOHMv++QsM7Qby7TsSVrbDlFo5Bx1T7O9LbPAnaxiMKW4l1PcvKq4PaKYuK5YWzlNNP+Y8NUgnlsRE//ff9n4kSR5StO9xG4wjNkaZscfYttcwde2TKphgh/Sd+5B//2lF1W8inQEsjieBhOrkfeESIhThX8MdJdtdiZMoscN3JACJ9EDvP++Ifv8BtFBGKGoFSANAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;thumbnail&quot;
+        title=&quot;thumbnail&quot;
+        src=&quot;/static/424e3eb264538721903d41fecf31d68e/c1b63/zone-angular-cdr.png&quot;
+        srcset=&quot;/static/424e3eb264538721903d41fecf31d68e/5a46d/zone-angular-cdr.png 300w,
+/static/424e3eb264538721903d41fecf31d68e/0a47e/zone-angular-cdr.png 600w,
+/static/424e3eb264538721903d41fecf31d68e/c1b63/zone-angular-cdr.png 1200w,
+/static/424e3eb264538721903d41fecf31d68e/21b4d/zone-angular-cdr.png 1280w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;zone&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#zone&quot; aria-label=&quot;zone permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;zone&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;zone.js&lt;/code&gt;은 비동기 실행들을 하나의 맥락(실행 컨텍스트)으로 다룰 수 있도록 해준다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;비동기 api들을 런타임(코드가 실행이 될 때)에 코드의 동작을 동적으로 업데이트(&lt;code class=&quot;language-text&quot;&gt;몽키패치&lt;/code&gt;) 해서,&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;zone 자신의 api로 바꿔버려(&lt;code class=&quot;language-text&quot;&gt;후킹&lt;/code&gt;),&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;비동기 api들의 사용을 통지 받을 수 있고,&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;따라서 비동기 컨텍스트를 하나로 관리 할 수 있도록 도와준다.&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&quot;변경감지&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%80%EA%B2%BD%EA%B0%90%EC%A7%80&quot; aria-label=&quot;변경감지 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;변경감지&lt;/h3&gt;
+&lt;p&gt;리액트를 사용할 때 재 랜더링에 대해 생각을 하면서 코딩을 하곤 했었다.&lt;br&gt;
+state, props의 변경과 부모컴포넌트의 재랜더링은 자식 컴포넌트를 다시 랜더링시키는데,&lt;br&gt;
+재랜더링을 하는 이유는 하면의 데이터를 바꾸기 위함이다.&lt;/p&gt;
+&lt;p&gt;앵귤러가 화면의 데이터를 바꾸는 방식은 변경감지(change detection)를 통해 바꾼다. 이는 다시 랜더링 시킨다는 말이다.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;앵귤러는&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;zone을 통해 코드와 로직이 실행되는 &lt;code class=&quot;language-text&quot;&gt;상황&lt;/code&gt; 을 감지한다. (특정 데이터 자체의 변경을 통지 받는것이 아님)&lt;/li&gt;
+&lt;li&gt;native api들의 호출을 zone이 알고 있고, 변경 감지를 수행한다.&lt;/li&gt;
+&lt;li&gt;따라서 내부의 디렉티브,서비스뿐만 아니라 외부 라이브러리의 이벤트도 zone덕분에 변경 감지를 수행 할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;다만 zone은 언제 변경감지(change detection)을 해야하는지만 알려준다.&lt;/p&gt;
+&lt;p&gt;변경 감지는 (viewRef가 상속하고 있는 changeDetectorRef를) 루트부터 아래로 내려가면서 순차적으로 진행되어야 어떤것이 변경되었는지 알고, 바꿀 수 있다.&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3 id=&quot;변경감지-전략&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%80%EA%B2%BD%EA%B0%90%EC%A7%80-%EC%A0%84%EB%9E%B5&quot; aria-label=&quot;변경감지 전략 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;변경감지 전략&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 19.666666666666668%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAY0lEQVQY05XPwQqAMAwD0P3/j6oMnM4V16UjjqkHwYMeHrmUkDoRY4rKGmZaCMS6nBkjCwoB/OLyDubBU32ThCapg0g/MDPanR84lLZuGqlxo9ZKa3Dl15JHoWomVIny/703B08xOhUwSfKhAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;cds.png&quot;
+        title=&quot;cds.png&quot;
+        src=&quot;/static/1c29ec83a19f8d5f2a56903b80a1ce70/c1b63/cds.png&quot;
+        srcset=&quot;/static/1c29ec83a19f8d5f2a56903b80a1ce70/5a46d/cds.png 300w,
+/static/1c29ec83a19f8d5f2a56903b80a1ce70/0a47e/cds.png 600w,
+/static/1c29ec83a19f8d5f2a56903b80a1ce70/c1b63/cds.png 1200w,
+/static/1c29ec83a19f8d5f2a56903b80a1ce70/5f78c/cds.png 1606w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;앵귤러는 change detection이 시작되면, 루트부터 모든 컴포넌트를 순회한다.&lt;/p&gt;
+&lt;p&gt;(ngOnChange의 경우 @input이 변경될때만 호출되지만 ngDoCheck는 매번 호출되는걸 생각한다면 이해하기 쉽다.)&lt;/p&gt;
+&lt;p&gt;이벤트가 발생할 때마다 모든 컴포넌틀를 순회하니, &lt;code class=&quot;language-text&quot;&gt;데이터가 변경되는곳만&lt;/code&gt; 확인한다면 성능 향상을 바랄 수 있다.&lt;/p&gt;
+&lt;br /&gt;
+&lt;hr&gt;
+&lt;br /&gt;
+&lt;p&gt;부모 컴포넌트, 자식 컴포넌트와의 관계에서&lt;br&gt;
+자식은 부모에게서 받은 데이터만 보여준다고 할 때,&lt;br&gt;
+부모의 데이터가 변경되지 않는다면&lt;br&gt;
+→ 자식의 데이터도 변경되지 않는다.&lt;br&gt;
+&lt;strong&gt;이 때 자식 컴포넌트는 change detection에서 제외 되어도 된다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;따라서 부모의 &lt;strong&gt;데이터의 레퍼런스 비교&lt;/strong&gt;를 통해 데이터가 바뀌었는지 안바뀌었는지 아는게 핵심이다.
+(객체가 통째로 바뀔땐 변경감지 프로세스가 작동하고, 객체의 프로퍼티가 바뀔땐 작동하지 않는다)&lt;/p&gt;
+&lt;p&gt;앵귤러 컴포넌트 데코레이터에 changeDetection 프로퍼티로 전략을 설정할 수 있는데, 이는 changeEtectionStarategy.Default, changeEtectionStarategy.OnPush 두가지가 있다.
+위에서 계속 설명했던, 데이터가 변경되는곳만 확인하기 위해선 OnPush 전략을 사용하면 된다.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;알아두면 좋은 onpush tmi&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;OnPush전략이 제대로 사용되고 있는지 알기 위해선 ngDoCheck 메소드를 활용해본다면 쉽게 테스트 할 수 있다.&lt;/li&gt;
+&lt;li&gt;OnPush전략을 사용하는 컴포넌트 자체는 매번 ngDoCheck가 실행된다. 레퍼런스가 바뀌는지 안바뀌는지 알아야 자식 컴포넌트들의 change Detection 순회를 하지 않기 때문이다. 따라서 자식 컴포넌트가 많은 복잡한 컴포넌트 일수록 성능 개선 효과가 크다&lt;/li&gt;
+&lt;li&gt;불변객체를 사용 할 때 OnPush 전략을 사용하기 쉽다. 객체가 바뀔때마다 레퍼런스를 바꾸기 때문!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br/&gt;
+&lt;h3 id=&quot;changedetectorref&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#changedetectorref&quot; aria-label=&quot;changedetectorref permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ChangeDetectorRef&lt;/h3&gt;
+&lt;p&gt;변경감지를 세밀하게 조정할 수 있는 객체이다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABaUlEQVQoz41SiU7CQBDl//9NosGgETlioecevWn36HOmAgISsMnLTOd483Z2J/PlDi+LEO+bGGGUoCkL7CpgljoMA+5+x/TeeNSdh6eGSZrESOMIUmSI4xh1VSAoHJ4jA+eoyDmyv/Dejzj3hyOYMIoiCCGRJAlZQaQJkmiHXCTgHCNNU4RhOPo8lME+x7bb7Wi11j+EWZYizzWUktB5DkUQSkFIBSkl5fLRKooxuJHBw/f7Pay1I4bDfiZ13aFte0oaGC5oW/RNQ6jRdR36vj/Zc3DMH455OjorFMLRZE8Te5Qh7fBrA0uKukzDOnuxv2sc1Z2rnChlaCfAYrHC/O0VwY5WUBo07UBN9k/TOa7JR0KtLakbEAQRPhcfWC3XtLcCVeVgjD0V31N6QSilpRsD1ustptMnzGYzUswX5WlP9qDS/Z+wLHtqHkilpicQkLIKReEeHvcWRkLv2XGnd89B/n+k6Ba49xujklPhSb+CEAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;cdr.png&quot;
+        title=&quot;cdr.png&quot;
+        src=&quot;/static/9661425b7e79de9d5183689855505b1d/c1b63/cdr.png&quot;
+        srcset=&quot;/static/9661425b7e79de9d5183689855505b1d/5a46d/cdr.png 300w,
+/static/9661425b7e79de9d5183689855505b1d/0a47e/cdr.png 600w,
+/static/9661425b7e79de9d5183689855505b1d/c1b63/cdr.png 1200w,
+/static/9661425b7e79de9d5183689855505b1d/09b15/cdr.png 1704w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;detach&lt;/code&gt; 메소드를 통해 변경감지 트리에서 분리할 수 있다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;루트부터 순회하는 변경감지 순회에서 분리되어 따로 변경감지 트리를 만드는것이므로,
+해당하는 컴포넌트와 자식 컴포넌트는 zone에 의해 루트부터 시작된 변경감지가 수행되지 않는다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;reattach&lt;/code&gt; 메소드를 통해 분리되었던 변경감지 트리를 다시 붙일 수 있다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;detectChanges&lt;/code&gt; 메소드는 &lt;code class=&quot;language-text&quot;&gt;즉시&lt;/code&gt; 자신과 자식 컴포넌트의 변경감지 순회를 시작한다. 즉시 해당 컴포넌트를 재랜더링 시키고 싶을 때 사용한다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;markForCheck&lt;/code&gt;는 &lt;code class=&quot;language-text&quot;&gt;변경감지 순회를 시작하는것이 아니라&lt;/code&gt;, 다음번 변경감지 순회때 순회를 시키도록 체크해 두는것이다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br/&gt;
+&lt;p&gt;참고&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://norux.me/64&quot;&gt;https://norux.me/64&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://angular.io/api/core/ChangeDetectorRef&quot;&gt;https://angular.io/api/core/ChangeDetectorRef&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.thisdot.co/blog/zone-js-deep-diving-execution-context&quot;&gt;https://www.thisdot.co/blog/zone-js-deep-diving-execution-context&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;제대로 배우는 앵귤러4&lt;/p&gt;</content:encoded></item><item><title><![CDATA[왜 getServerSideProps는 느릴까？ (react18을 곁들인 . .)]]></title><description><![CDATA[getServerSideProps 안에서 API 패칭을 하였고, 배포를 했을때 속도가 상당히 느려졌다. 가설1. CDN설정..? CDN 문제라면 getStaticProps…]]></description><link>https://wook95.github.io/React/왜-getServerSideProps는-느릴까？-(react18을-곁들인-.-.)/</link><guid isPermaLink="false">https://wook95.github.io/React/왜-getServerSideProps는-느릴까？-(react18을-곁들인-.-.)/</guid><pubDate>Thu, 31 Mar 2022 19:29:05 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
@@ -55,27 +192,7 @@ rederToNodeStream의 경우 suspense는 되지만, 스트리밍은 되지 않아
 어제 릴리즈 된(22.03.30) 리액트18을 보니 renderToPipeableStream이 있는걸로 보아 확실히 deprecated 될것같다.&lt;/li&gt;
 &lt;li&gt;Next 공식문서에도 특별히 꼭 서버에서 가져와야 하는 경우가 아니라면 getServerSideProps의 사용을 지양하라고 한다. ( 캐시 설정을 하지 않는다면 CDN에 캐시 되지 않아 계속 패치되기도 한다.)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;br&gt;</content:encoded></item><item><title><![CDATA[실행 컨텍스트란 뭘까]]></title><description><![CDATA[…]]></description><link>https://wook95.github.io/Javascript/실행-컨텍스트란-뭘까/</link><guid isPermaLink="false">https://wook95.github.io/Javascript/실행-컨텍스트란-뭘까/</guid><pubDate>Sun, 20 Feb 2022 22:28:16 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 52.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB8UlEQVQoz52SvU9TYRSH7+TqZjRuTiYajRrqYIwmJpI4lADRyY/CIJdKB27Lva1tbaN0MA5IRNFEBx2wGCxYRGgpFPygYKMTJupfYCJ+YFFEhMfz9lIFdVCGJ/c9b87v997zodW05znWMsLx1oerRulrrz6j/ORZtPBTsIbBP2Jj/QcljSn6M3k4HO1Es7Jg9M3h7f9epCm1iJWWRKF0LjJox76BRfteYpVvCI33v+IfhargTTR1MB7M40tJgiS7e2ZwdbzhaMdbTvV8pib+Dlfne07cnsJ9b5aG5Kx8v+CSe2WmdEofeATVoVu/DK0M1ManWOcbYr03hWbkOHBxkk3hJ2yQ+tZ40mw9l2dvywu2N0+wVr+D3vUBM6Mq/PanoSllqZc3itjRPMbmaI6K9lfsjo1x6NIk5W0v2RHJ4ojlKIsOsy0ySn1iGnNQ6X837J8XFghIc52tz9kVSLIn9hhHsI8tZpL958c5eGEcRyTDzlCastO9VF17TWCIou6vJav+qX54eueouzuNniigdxdwd88IBRqkf3riE/Vyruv6iEd6Wer7T8OgGKrxL5+yb2CBpuKEV2JPdylO27GxpGkUvfqxajXl0IS9Ryt2LPsPLMs3pfSw2sNIHK3Sfx2ncZkK75VV4zTaqPTfYN8RNz8ApAh+KZLr5DAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;executionContext&quot;
-        title=&quot;executionContext&quot;
-        src=&quot;/static/da573d6abad76f102056d1388bd6d2f0/c1b63/executionContext.png&quot;
-        srcset=&quot;/static/da573d6abad76f102056d1388bd6d2f0/5a46d/executionContext.png 300w,
-/static/da573d6abad76f102056d1388bd6d2f0/0a47e/executionContext.png 600w,
-/static/da573d6abad76f102056d1388bd6d2f0/c1b63/executionContext.png 1200w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;br&gt;</content:encoded></item><item><title><![CDATA[실행 컨텍스트란 뭘까]]></title><description><![CDATA[…]]></description><link>https://wook95.github.io/Javascript/실행-컨텍스트란-뭘까/</link><guid isPermaLink="false">https://wook95.github.io/Javascript/실행-컨텍스트란-뭘까/</guid><pubDate>Sun, 20 Feb 2022 22:28:16 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;./images/executionContext.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;실행컨텍스트를 제대로 알아야 클로저, 스코프 기반의 변수 관리, 호이스팅에대해 알 수 있다.&lt;/p&gt;
 &lt;h2 id=&quot;실행-컨텍스트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%ED%96%89-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8&quot; aria-label=&quot;실행 컨텍스트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실행 컨텍스트&lt;/h2&gt;
 &lt;p&gt;실행 컨텍스트는 객체이다.&lt;br&gt;
@@ -214,15 +331,8 @@ Runtime.ExitError&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 합리적인 의사결정을 할 수 있지 않을까 . .!&lt;br&gt;
 그렇게 시작했다.&lt;/p&gt;
 &lt;h1 id=&quot;쌍용-교육센터&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8C%8D%EC%9A%A9-%EA%B5%90%EC%9C%A1%EC%84%BC%ED%84%B0&quot; aria-label=&quot;쌍용 교육센터 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;쌍용 교육센터&lt;/h1&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAs2AAALNgG/CNh6AAAC50lEQVQozwHcAiP9AN7t4N/t3t/s4N/v4uHx5OP05uT46OT56uP25+P05PL/8I+Ujo2Oja6wrKyurLCxsbS1tra5urq9wb3CxQDf7OTi7+Dk8+Ln9uXq++jq/Ono+ufp++fm+Obn+Oj3//aUmpSRk5S1uLWztra4vL6+wsTBxsrIzNHKz9UA6fXv5fHr5O7l5PDi5PLk4/Hj4vHk4/Pl4/Pm3u3f6vrohIiEfHx9nJuakZGSi4uOh4iMg4WLfoGGeX6DAOn38Or38Oj17ubz5en45+j35ub25e//7oqRjlVcXl1kZltiZVxiZV1lZ15laGtxc3F1dnR3eXh6fH+BgwDx//ju/vXt/fPt+urs/Ojs++jq++ju/+9xcnFlaWdtcXRxc3N+fHqAfXl+f4CAhYKAf3+AfXx9enlzb3AAwtHW7//37fv17Prr6/zp6/ro6vro7P/ud3h3VVBRNTY4PD4/RUdJTT07TkNERUI/P0hKQEZQOzxANjc6AH+RpsjY2/L/+uz56+z86ev76er66O//8G5wblRNTD4+Pzk8PUFMUDY9RE5cYGFhSU5mVENRV0JCRjw9QQB2jKWoucby//vq9uzr+Onq9+nn9efx/vJgZGVYS0ZhXV5CRko7S1I/QURpdGd0hlVSd2FAR05CQUU9P0MAhJSutMDP3+bt0NHPzMnBzcrDysnB09LLXF1fbmVidnBwSk1PQVFZRUVGbXFbbHFaZ3VgVFtMR0hKQEBFAKOJkr26vsPDyMXAvsC5tMS9ucfBvNHLx11bYGZdW2VhYUFERkRVW0JCRl1gVV1gU1ZqUGJwQ01ORzk4OgDHn4Ckn5+gnpuuqqjCvLfCvbmvq6m4s7FYV1pnWlRpZWVGSEpEV15RSUiAdFN6dFpqcV1eZUxHR0E8OzoA3LNOupZwoIJ3WlRNWVNPVlFMICEhIiIkOzo+VFFPS0pLQ0ZHR1lfTU9NbXRqdXpdZmRZRkRGOzo6Pz48sWmptdsdDfIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;IMG 0052&quot; title=&quot;IMG 0052&quot; src=&quot;/static/4e41938d397853cd5a93a81db3b5f842/c1b63/IMG_0052.png&quot; srcset=&quot;/static/4e41938d397853cd5a93a81db3b5f842/5a46d/IMG_0052.png 300w,
-/static/4e41938d397853cd5a93a81db3b5f842/0a47e/IMG_0052.png 600w,
-/static/4e41938d397853cd5a93a81db3b5f842/c1b63/IMG_0052.png 1200w,
-/static/4e41938d397853cd5a93a81db3b5f842/d61c2/IMG_0052.png 1800w,
-/static/4e41938d397853cd5a93a81db3b5f842/92bb4/IMG_0052.png 1824w&quot; sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
-    &lt;/span&gt;
-&lt;br&gt;
+&lt;img src=&quot;./images/IMG_0052.png&quot; /&gt;
+&lt;br/&gt;
 &lt;p&gt;강사님이 퀴즈 처럼 쉽게 만들어주신 알고리즘 문제와&lt;br&gt;
 주말 숙제라면서 내주신 자바로 만드는 텍스트 게임이 생각난다.&lt;br&gt;
 강사님 덕분에 딱 재밌게 어려운 난이도로 처음을 잘 시작했다.&lt;/p&gt;
@@ -394,7 +504,7 @@ Runtime.ExitError&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/details&gt;
 &lt;h2 id=&quot;인턴십&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B8%ED%84%B4%EC%8B%AD&quot; aria-label=&quot;인턴십 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;인턴십&lt;/h2&gt;
-&lt;img src=&quot;/344dd693b34e4c6ca6f24a2b7c702ca4/alocksp.gif&quot; style=&quot;display: block; margin:0 auto;&quot;&gt;
+&lt;img src=&quot;./images/alocksp.gif&quot; style=&quot;display: block; margin:0 auto;&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/wook95/alockRenewal&quot;&gt;깃허브&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;인턴십은 1순위로 가고싶은 곳이었던 에이락에서 진행했다.&lt;br&gt;
 에이락이 쓰는 리액트 네이티브라는 기술이 궁금했고 위치도 성수역으로 딱 좋아서 1순위로 선정했다.&lt;/p&gt;
@@ -451,7 +561,7 @@ ex) 키보드가 가려지지 않는 옵션을 적용해도 가려지고, textIn
 &lt;li&gt;css 적용 안되는 속성이 있다. (linear-gradient 등. 물론 라이브러리를 쓰면 된다.)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;2차-프로젝트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8&quot; aria-label=&quot;2차 프로젝트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2차 프로젝트&lt;/h2&gt;
-&lt;img src=&quot;/9531a8614aa1bc93701946a51187036f/ourcode.gif&quot; style=&quot;display: block; margin:0 auto;&quot;&gt;
+&lt;img src=&quot;./images/ourcode.gif&quot; style=&quot;display: block; margin:0 auto;&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;https://vimeo.com/644067169&quot;&gt;시연영상&lt;/a&gt;&lt;br&gt;
 &lt;a href=&quot;https://github.com/wook95/fullstack2-2nd-ourcodetrip-frontend&quot;&gt;깃허브&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;내가 맡은 부분은 리덕스 셋팅, pathname에 따라 변하는 navbar, 카테고리의 collapse였다.&lt;/p&gt;
@@ -568,7 +678,6 @@ useSelector와 useDispatch를 직접 쓰지 않고 커스텀 훅을 사용해 �
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;개발 기간 : 21/10/4 ~ 21/10/15 &lt;br&gt;
 사용 기술 : React, Node.js, Prisma, Mysql&lt;br&gt;
-&lt;a href=&quot;http://52.79.242.181/&quot; target=&quot;_blank&quot;&gt;데모 사이트&lt;/a&gt;&lt;br&gt;
 &lt;a href=&quot;https://github.com/wecode-bootcamp-korea/fullstack2-1st-keudaran-studio-frontend&quot; target=&quot;_blank&quot;&gt;프론트 레포&lt;/a&gt;&lt;br&gt;
 &lt;a href=&quot;https://github.com/wecode-bootcamp-korea/fullstack2-1st-keudaran-studio-backend&quot; target=&quot;_blank&quot;&gt;백엔드 레포&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;총평&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B4%9D%ED%8F%89&quot; aria-label=&quot;총평 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;총평&lt;/h2&gt;
@@ -621,75 +730,13 @@ useSelector와 useDispatch를 직접 쓰지 않고 커스텀 훅을 사용해 �
 &lt;/ol&gt;
 &lt;h2 id=&quot;생각나는-코드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%83%9D%EA%B0%81%EB%82%98%EB%8A%94-%EC%BD%94%EB%93%9C&quot; aria-label=&quot;생각나는 코드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;생각나는 코드&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/3d8427401d654b2ddbde96c00d6f9d1a/keudaran-login.gif&quot;&gt;
-로그인을 했을 때 네비바에서 로그인 버튼을 로그아웃으로 바꿔주기 위해서 어떡하지 어떡하지 고민하다가, react-router로 라우팅을 해주는 곳까지 올라가서 상태를 정의해주었습니다. 아무래도 아닌것 같은데 하는 찜찜함으로 생각을 가지고 있었는데, 찜찜하다는 생각이 많이 나 생각이 나는 코드 입니다. 다음 프로젝트때에는 전역 상태 관리 라이브러리를 쓰거나 context api를 활용해 해결해 나가고 싶습니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[프리즈마 P1003 에러를 해결하기까지]]></title><description><![CDATA[문제 prisma로 모델을 만들고 마이그레이션을 하는데 문제가 발생했습니다.   번갈아서 나온 에러들입니다. 마이그레이션 엔진에 오류가 났다, 로컬호스트의 3306포트에서 mysql을 찾을수 없다, 데이터베이스 we_starbucks…]]></description><link>https://wook95.github.io/Trouble shooting/프리즈마-p1003-에러를-해결하기까지/</link><guid isPermaLink="false">https://wook95.github.io/Trouble shooting/프리즈마-p1003-에러를-해결하기까지/</guid><pubDate>Fri, 17 Sep 2021 21:09:25 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 52.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABoElEQVQoz52S2S8DURTG/beW8IImjbUeNJYgCIkqKh3RimoiQtE2tT8gpY0IVWq6mem0li668bn3ttOiJeLhl5l7li/fvefUOA8c2LdacGjfqo5t8+dcEdp/driDgcEh1ABJICECr1KZVKQMO4tfY3JcJiGA/MC8ZCCCJJkRfMhH+AISDzyHi4QK55dwmacQIx+5L/VkhDsgLWFRryeC6ShLvkf9QCyANyLAu44hXrtwardg22SEcHUOP4lRIh43pBs38BhkPZQc6Uc2BuMC902QFKVCXgx3d0FRW4+50RGolUq0NTZB1dyCwY52KOoaWJ46owZ+FyRXSQY84CbGYSXOXLtW5tA8P4t1AwfbyhI2yHdvzYyceP8HQVKQE33IPNzhyXeJyf4+cJPjGOpRoZc4HVP3IhW8YYOQr8t6fhIsFcUFxLwXuHUewXNywJxtLxvgWDUhEbguOav+hmTKWTpliS+R+/QEDLoWlPgDi8vbIFOYchQGTi/voVC5Z5SkWEm1unhhD1eMZA/1Oh20Gg1mpqf/jXZKA25eh1ZlJz4AQyoBfsTS7NAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;prismaT&quot;
-        title=&quot;prismaT&quot;
-        src=&quot;/static/537b48c69c8eefd56c3a7062d632f979/c1b63/prismaT.png&quot;
-        srcset=&quot;/static/537b48c69c8eefd56c3a7062d632f979/5a46d/prismaT.png 300w,
-/static/537b48c69c8eefd56c3a7062d632f979/0a47e/prismaT.png 600w,
-/static/537b48c69c8eefd56c3a7062d632f979/c1b63/prismaT.png 1200w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+로그인을 했을 때 네비바에서 로그인 버튼을 로그아웃으로 바꿔주기 위해서 어떡하지 어떡하지 고민하다가, react-router로 라우팅을 해주는 곳까지 올라가서 상태를 정의해주었습니다. 아무래도 아닌것 같은데 하는 찜찜함으로 생각을 가지고 있었는데, 찜찜하다는 생각이 많이 나 생각이 나는 코드 입니다. 다음 프로젝트때에는 전역 상태 관리 라이브러리를 쓰거나 context api를 활용해 해결해 나가고 싶습니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[프리즈마 P1003 에러를 해결하기까지]]></title><description><![CDATA[문제 prisma로 모델을 만들고 마이그레이션을 하는데 문제가 발생했습니다. 스크린샷 2021-09-15 오후 10.19.25 스크린샷 2021-09-15 오후 10.28.2…]]></description><link>https://wook95.github.io/Trouble shooting/프리즈마-p1003-에러를-해결하기까지/</link><guid isPermaLink="false">https://wook95.github.io/Trouble shooting/프리즈마-p1003-에러를-해결하기까지/</guid><pubDate>Fri, 17 Sep 2021 21:09:25 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;./images/prismaT.png&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;문제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;문제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제&lt;/h3&gt;
 &lt;br&gt;
 당연히 될것만 같았던 마이그레이션 ,,, 너가 내 뒷통수를 ,,,,
 &lt;p&gt;prisma로 모델을 만들고 마이그레이션을 하는데 문제가 발생했습니다.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 13%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAqklEQVQI11XPSQuCUBiFYf///6hFtI5Gop2gOTQb5tXmyCLoNmq92Q2KFg/fOWf3acLTCcc668hmHpjKMfZIZKikp4jHKcwIUil4yPcNVP/s/7Tk4HGNB8pt9zbMcl91zgHICekx5C5nkGx+bgu4TuEy5XmOvllrWjo1x6bSNqhm6rZF2TRouA41lU26Tgm/nUO4BUSniG/lWfot9qs+h3Uv+2hEvHDZzl1entHbQvWy1d0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;스크린샷 2021-09-15 오후 10.19.25&quot;
-        title=&quot;스크린샷 2021-09-15 오후 10.19.25&quot;
-        src=&quot;/static/453addfed47ffd09a70f2f6b8d1d3d56/c1b63/prisma1.png&quot;
-        srcset=&quot;/static/453addfed47ffd09a70f2f6b8d1d3d56/5a46d/prisma1.png 300w,
-/static/453addfed47ffd09a70f2f6b8d1d3d56/0a47e/prisma1.png 600w,
-/static/453addfed47ffd09a70f2f6b8d1d3d56/c1b63/prisma1.png 1200w,
-/static/453addfed47ffd09a70f2f6b8d1d3d56/1e1c3/prisma1.png 1670w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 5.666666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAATUlEQVQI1z2KwQ5AMBAF/f+fOVRsJRyR2i22leAqebYODpOXeZnqCTVuIfDooKHFOjfI4j90IRyxQ2L/r1i3W5eYcOmAbF/xODmcW48XeItIj8RgxEIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;스크린샷 2021-09-15 오후 10.28.28&quot;
-        title=&quot;스크린샷 2021-09-15 오후 10.28.28&quot;
-        src=&quot;/static/a9651df526f4ae3882506f9b8b66d57b/c1b63/prisma2.png&quot;
-        srcset=&quot;/static/a9651df526f4ae3882506f9b8b66d57b/5a46d/prisma2.png 300w,
-/static/a9651df526f4ae3882506f9b8b66d57b/0a47e/prisma2.png 600w,
-/static/a9651df526f4ae3882506f9b8b66d57b/c1b63/prisma2.png 1200w,
-/static/a9651df526f4ae3882506f9b8b66d57b/bc3ae/prisma2.png 1268w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./images/prisma1.png&quot; alt=&quot;스크린샷 2021-09-15 오후 10.19.25&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./images/prisma2.png&quot; alt=&quot;스크린샷 2021-09-15 오후 10.28.28&quot;&gt;&lt;/p&gt;
 &lt;p&gt;번갈아서 나온 에러들입니다.&lt;/p&gt;
 &lt;p&gt;마이그레이션 엔진에 오류가 났다, 로컬호스트의 3306포트에서 mysql을 찾을수 없다, 데이터베이스 we_starbucks가 로컬호스트 3306포트에 없다.
 &lt;br&gt;&lt;br&gt;&lt;/p&gt;
@@ -697,78 +744,15 @@ useSelector와 useDispatch를 직접 쓰지 않고 커스텀 훅을 사용해 �
 &lt;br&gt;
 포트3306에서 쓰고 있는 프로세스들 검색해줍니다.
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;sudo lsof -i :3306&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 16%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAqUlEQVQI1yWOaxKCMAyEOYiOoyOOgAIFyqNAgYLgA7z/bdYm/thJk+3mi6OXDaKokRQDZDXiEuS4iwbXewkvrHjuRxXCtIWQHW5xDdeXrMM5xv4UsnbHf3UKNXGwaB6IMo3ABrLSoNIL6u7JIgh5Iu8h1ciid2JFWc/Cg1hZsIKjzQeZvazuX/yJFtLy1rzRTxu6cYXrSfbScmCPYFzbGcoCqTfzF9204gejJmKCEXFLQwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;스크린샷 2021-09-15 오후 10.18.50&quot;
-        title=&quot;스크린샷 2021-09-15 오후 10.18.50&quot;
-        src=&quot;/static/062daff89986967499de267145fa74a2/c1b63/prisma3.png&quot;
-        srcset=&quot;/static/062daff89986967499de267145fa74a2/5a46d/prisma3.png 300w,
-/static/062daff89986967499de267145fa74a2/0a47e/prisma3.png 600w,
-/static/062daff89986967499de267145fa74a2/c1b63/prisma3.png 1200w,
-/static/062daff89986967499de267145fa74a2/d61c2/prisma3.png 1800w,
-/static/062daff89986967499de267145fa74a2/f98ee/prisma3.png 1808w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;./images/prisma3.png&quot; alt=&quot;스크린샷 2021-09-15 오후 10.18.50&quot;&gt;
 &lt;br&gt;&lt;br&gt;
 mariadbd가 살아있습니다 1421번 피드를 죽입니다.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;sudo kill 1421&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 304px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 13%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAz0lEQVQI1yWOXU+CYACF/Re10gyZElK8vB+BCEKKGo7loi7Qubyo1vr/f+CJ0cXZ2bl4np3e9cDFciTDseDG9nGEbndA3/Kxpwr7TuBFGYvTL+nxB7n/QqQVE9cwFXMeVMp9kLSs6NIbWAKziClel6Rlxtt3SVbl3I4DinrJc7MmmIVEuSbMDBeXI6J4xXtz5vjxyWZX81IfGDnqX3jVd5lvM/bnLbvDmuq0oWwKbFfh+AaVxHg6xFUhnokYTmT7LEGGT+jZqmv5mLdC3Qn/AA+PYnFvHIUuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;스크린샷 2021-09-16 오전 9.49.12&quot;
-        title=&quot;스크린샷 2021-09-16 오전 9.49.12&quot;
-        src=&quot;/static/6cc5d76902c849af35085ce7005f9de1/c1724/prisma4.png&quot;
-        srcset=&quot;/static/6cc5d76902c849af35085ce7005f9de1/5a46d/prisma4.png 300w,
-/static/6cc5d76902c849af35085ce7005f9de1/c1724/prisma4.png 304w&quot;
-        sizes=&quot;(max-width: 304px) 100vw, 304px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;./images/prisma4.png&quot; alt=&quot;스크린샷 2021-09-16 오전 9.49.12&quot;&gt;
 &lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;제대로 죽었나 다시 3306포트를 검색해줍니다.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;sudo lsof -i :3306&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 14.333333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAApUlEQVQI11VOSxKCMBTjIo6KCgxQoAVKoeUPjqgb73+Y2NZh4SKT90kycQiXIEUPxgdcggJ+XMH1GU43ioAIhGltOUobxJnE2WM4XjP7Nzi4yR8cI2zHDVwuSFgLoVaoYYMan1i3D3Ix6dDG3oW6Q/YP8GaxMHtadKDlgKKebCnHDJVcwaoRkW6Qaxbtz9jPbxCq4IUcVIuNYQ8u69nyHtzNL+v5AiMaYfOuOQnMAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;스크린샷 2021-09-16 오전 9.49.21&quot;
-        title=&quot;스크린샷 2021-09-16 오전 9.49.21&quot;
-        src=&quot;/static/257bfa9f1a810c96f5929b87284b9a75/c1b63/prisma5.png&quot;
-        srcset=&quot;/static/257bfa9f1a810c96f5929b87284b9a75/5a46d/prisma5.png 300w,
-/static/257bfa9f1a810c96f5929b87284b9a75/0a47e/prisma5.png 600w,
-/static/257bfa9f1a810c96f5929b87284b9a75/c1b63/prisma5.png 1200w,
-/static/257bfa9f1a810c96f5929b87284b9a75/d61c2/prisma5.png 1800w,
-/static/257bfa9f1a810c96f5929b87284b9a75/f98ee/prisma5.png 1808w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;./images/prisma5.png&quot; alt=&quot;스크린샷 2021-09-16 오전 9.49.21&quot;&gt;
 &lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;정상적으로 mysql만 3306을 쓰고있습니다.&lt;/p&gt;
 &lt;p&gt;그 후 마이그레이션 성공!
@@ -779,26 +763,7 @@ mariadbd가 살아있습니다 1421번 피드를 죽입니다.&lt;/p&gt;
 &lt;p&gt;계속 보니 당연하게 넘겼던 에러 메세지가 눈에 밟혔습니다. (3306포트에서 mysql을 못찾는다). 그런데 터미널에서 &lt;code class=&quot;language-text&quot;&gt;mysql -u root -p&lt;/code&gt;로 접속한 데이터베이스는 당연하게도 mysql이 3306에서 잘 돌아가는게 보였고, &lt;code class=&quot;language-text&quot;&gt;SHOW GLOBAL VARIABLES LIKE &apos;PORT&apos;&lt;/code&gt; 쿼리를 날려봐도 3306이 제대로 나왔습니다. 여기서 한번 방심도 하고&lt;/p&gt;
 &lt;p&gt;무언가 제 워크벤치도 포트번호가 있나,, 그게 뭔가 충돌한 것인가 마냥 남탓을 하고 있다가, 포트 번호가 자꾸 맘에 걸려서 포트 번호로 검색을 해주었더니, 옛날에 깔고 지웠던 마리아디비가 살아있었습니다. 프로세스 종료해주니 성공쓰..!&lt;/p&gt;
 &lt;p&gt;트러블 슈팅의 과정 ,, 일단 안되는데에 짜증도 나고 화도 날 수 있겠지만 진짜 문제를 해결하고 싶다면 한발짝 뒤로 물러나는게 필요한것 같습니다. 누가 마법처럼 정답을 알려주면 너무 너무 너무 좋겠지만,, 냉정하게 문제를 바라보는게 1번인것 같습니다. 하기 싫은 마음이 들 때 바로 하기 싫은 나를 보면서 한번 웃으면 그때부터 시작인것 같습니다. 그리고 에러메세지가 있다면 그 메세지가 왜 그렇게 말하는지에 대한 경우의 수를 다 한번 생각해보기가 2번 인것 같습니다. 앞으로 개발을 공부하면서 많은 문제들을 만날텐데 문제를 극복 하는 경험이 하나 둘 쌓여 멋진 개발자로 문제를 해결하는게 즐거운 개발자로 거듭나 보겠습니다~!&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[자바스크립트와 비동기!]]></title><description><![CDATA[…]]></description><link>https://wook95.github.io/Javascript/자바스크립트와-비동기!/</link><guid isPermaLink="false">https://wook95.github.io/Javascript/자바스크립트와-비동기!/</guid><pubDate>Mon, 13 Sep 2021 00:10:06 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 52.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABvElEQVQoz3VSyU7CUBTtZ7lz4wjiEI11gDggoDh+mB9g3Jg4xBg1DgtjYtQ4Im2hfbRQ+igc73sVkKKLk9ve4bxzB8W1Z1BhaiesH7B/rKV21bi2CvNNhdLAJnysoY7sL6y30MCG9AW27f9d42OV4ltwtBgUEajVU6g10gHqaZSNOJz8HMr6PEqPk/T6Iux3UlKIo0x+R5snkozMDWpSktjOj0ERH00yX1hK1I76YZwNQb+I4GW3B9bjFArXIzDvxpDb74V2MhAQNkUQhGo7PxoiJOmC0KssS4X25yyMqyhctgDOV1AmZU5uFqXXaSJY6yDtJvRTUkWRVJh34yjcxOCWqFUqrrpJGJdRIlKhnQ6CPUzCvJ+ATjkBaaqT0EdaKhAkBrVZuIxAp0KTWjWuRsDepqGfD4M9TeFjrxdfh30o3sbwddwPTkJEfTDDUMuy3WpStuN5SXjuMqq0ENfKgNMYeG0FlWJCglOe5yy1FtpSGN6yeK35L2LcTsA66AF3EnLGosW2zXRvuYHt0O1lQ3YVnMUlSdsfvtksgB06pyiUUm4I7IMG/hnpApOWYvmYtOyPHOkX9cRjPKfxDTRWzafvuLyNAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;img&quot;
-        title=&quot;img&quot;
-        src=&quot;/static/64e4e78d0031d981288edaa036ad14ac/0a47e/bdongi.png&quot;
-        srcset=&quot;/static/64e4e78d0031d981288edaa036ad14ac/5a46d/bdongi.png 300w,
-/static/64e4e78d0031d981288edaa036ad14ac/0a47e/bdongi.png 600w&quot;
-        sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[자바스크립트와 비동기!]]></title><description><![CDATA[img…]]></description><link>https://wook95.github.io/Javascript/자바스크립트와-비동기!/</link><guid isPermaLink="false">https://wook95.github.io/Javascript/자바스크립트와-비동기!/</guid><pubDate>Mon, 13 Sep 2021 00:10:06 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;./images/bdongi.png&quot; alt=&quot;img&quot;&gt;&lt;br&gt;
 자바스크립트는 싱글스레드. 한번에 한가지 일 밖에 못한다..!&lt;br&gt;그런데 어떻게 비동기로 일을 처리하는것일까요?&lt;/p&gt;
 &lt;p&gt;공부의 결론&lt;/p&gt;
 &lt;ol&gt;
@@ -866,27 +831,7 @@ mariadbd가 살아있습니다 1421번 피드를 죽입니다.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;참고한 곳&lt;br&gt;&lt;br&gt;
 &lt;a href=&quot;https://beststar-1.tistory.com/24&quot;&gt;https://beststar-1.tistory.com/24&lt;/a&gt;&lt;br&gt;
-자바스크립트 딥다이브&lt;/p&gt;</content:encoded></item><item><title><![CDATA[addEventListener에 파라미터가 있는 콜백함수 넘기기! (재사용 가능)]]></title><description><![CDATA[TL; DR…]]></description><link>https://wook95.github.io/Javascript/addeventlistner에-파라미터가-있는-콜백함수-넘기기!-(재사용-가능))/</link><guid isPermaLink="false">https://wook95.github.io/Javascript/addeventlistner에-파라미터가-있는-콜백함수-넘기기!-(재사용-가능))/</guid><pubDate>Wed, 01 Sep 2021 00:09:21 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 628px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVQoz41S3UtTcRg+f0N3URTZp4kQ2oWXQREUhBTFBMuVGfRFJdnMTc92nDH02FHPl+EyW0WYUZb24Vpua1kimWfNBkVd1mxuOwlBt0/v+c1khBddPDy8z/v8fr9z3vfhpOlnaHwvwftBhcdQIBAYx5fBYv9fvY3OOqa7EIi/AafGhxHMSIjlNMRMFa9yKiYWNMbRrLLE4XmFPCpDJKMw/O1PmBpG5iT0GWFwsvEID1NdCKZJ/CbjSUrG0FeJWMHztIqncyrj2C8do997GMYXdITp0WBWo1phZ++nuuGfoQvVxGOMmRKkSAd2O5tw4EozttidOB8QEDZlhDIyBj9LqNVasLPJjco2N/retaP+divjt791hNIy/Ml23PwYA1fT40fFBQfKTgpYfdCFjUcErDnkxPqqeuxweLDLyaPiHI8Vex0oquaxsrIB62yNWFvFo+wUj30Cjz28F0U1l3Cm9xa47XVebLLz2EYXlp8WiFuxav9FlNa5sPW4B8XHmlF6QsBmOz122IUN1ZdRftaH4qMulFC/pLaFPPQRtgbY3Do4X/Qerid8uJu8ijvJTgzERWiTIvtNqx78lNdvGCKuTYnonxExYHQwXyAhYugL+WY7ocd96Dei4PTZEYxmuvEyp+MFDTlE2x7/SQPPaKy2Bs90M69bHCKv5bNg+cJmLx78oKUYEXCKMYyxeYpNNh+PaEEkCrEUlUIs9l5TdFhsrC0XBnvZMP8HCoP9B5QmO89Ny2YBAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;addEventListesr123&quot;
-        title=&quot;addEventListesr123&quot;
-        src=&quot;/static/e1835a60df6cd233009a9fe08942339c/3d84d/addEventListesr123.png&quot;
-        srcset=&quot;/static/e1835a60df6cd233009a9fe08942339c/5a46d/addEventListesr123.png 300w,
-/static/e1835a60df6cd233009a9fe08942339c/0a47e/addEventListesr123.png 600w,
-/static/e1835a60df6cd233009a9fe08942339c/3d84d/addEventListesr123.png 628w&quot;
-        sizes=&quot;(max-width: 628px) 100vw, 628px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
+자바스크립트 딥다이브&lt;/p&gt;</content:encoded></item><item><title><![CDATA[addEventListener에 파라미터가 있는 콜백함수 넘기기! (재사용 가능)]]></title><description><![CDATA[TL; DR…]]></description><link>https://wook95.github.io/Javascript/addeventlistner에-파라미터가-있는-콜백함수-넘기기!-(재사용-가능))/</link><guid isPermaLink="false">https://wook95.github.io/Javascript/addeventlistner에-파라미터가-있는-콜백함수-넘기기!-(재사용-가능))/</guid><pubDate>Wed, 01 Sep 2021 00:09:21 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;./images/addEventListesr123.png&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;tl-dr&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tl-dr&quot; aria-label=&quot;tl dr permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;TL; DR&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;이벤트 핸들러를 익명함수로 감싸주고 리턴하는 덩어리를 이벤트핸들러로!
@@ -962,7 +907,7 @@ handleHeart 함수는 익명함수를 반환합니다!
 &lt;ul&gt;
 &lt;li&gt;git을 사용한 프로젝트 저장소&lt;/li&gt;
 &lt;li&gt;개발자들의 SNS
-&lt;br&gt;&lt;br&gt;  &lt;/li&gt;
+&lt;br&gt;&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;깃을 사용하는 흐름을 제가 생각했을땐 크게 두가지인것 같습니다.&lt;/p&gt;
 &lt;ol&gt;
@@ -970,21 +915,21 @@ handleHeart 함수는 익명함수를 반환합니다!
 &lt;li&gt;남이 쓴 코드를 받아와 작업하기! (원격 -&gt; 로컬)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;지금부터 아주 간단한 cli로! 깃 한번 써보겠습니다.
-&lt;br&gt;&lt;br&gt;  &lt;br&gt;&lt;br&gt;  &lt;/p&gt;
-&lt;h3 id=&quot;1--로컬에-작업하고-빈-레포에-푸쉬하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1--%EB%A1%9C%EC%BB%AC%EC%97%90-%EC%9E%91%EC%97%85%ED%95%98%EA%B3%A0-%EB%B9%88-%EB%A0%88%ED%8F%AC%EC%97%90-%ED%91%B8%EC%89%AC%ED%95%98%EA%B8%B0&quot; aria-label=&quot;1  로컬에 작업하고 빈 레포에 푸쉬하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1.  로컬에 작업하고, 빈 레포에 푸쉬하기&lt;/h3&gt;
+&lt;br&gt;&lt;br&gt; &lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1-로컬에-작업하고-빈-레포에-푸쉬하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EB%A1%9C%EC%BB%AC%EC%97%90-%EC%9E%91%EC%97%85%ED%95%98%EA%B3%A0-%EB%B9%88-%EB%A0%88%ED%8F%AC%EC%97%90-%ED%91%B8%EC%89%AC%ED%95%98%EA%B8%B0&quot; aria-label=&quot;1 로컬에 작업하고 빈 레포에 푸쉬하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 로컬에 작업하고, 빈 레포에 푸쉬하기&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;cd 작업할 폴더&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git init&lt;/code&gt; : 이제 깃을 쓰겠습니다.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git status&lt;/code&gt; : 현재 상태 보기 (스테이지에 올라갔나 확인, 수정된 파일 확인)&lt;/p&gt;
-&lt;p&gt;​               -코딩 -&lt;/p&gt;
+&lt;p&gt;​ -코딩 -&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git add&lt;/code&gt; : 스테이지에 올린다! (git add . :모든 코드를 스테이징) ,&lt;br&gt;
-커밋과 add가 따로 나눠져 있는 이유는, git으로 관리하는 폴더에서 올리고 싶은것만 올릴려고(작업내역으로 남기고 싶은 부분만 남기려고)  &lt;br&gt;&lt;br&gt;&lt;/li&gt;
+커밋과 add가 따로 나눠져 있는 이유는, git으로 관리하는 폴더에서 올리고 싶은것만 올릴려고(작업내역으로 남기고 싶은 부분만 남기려고) &lt;br&gt;&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git commit&lt;/code&gt; : 작업단위..! 이름을 붙여서 스테이지에 올린 파일들 사진을 찍는다 (작업 단위로 나눠 이름을 붙여 저장!)&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git log&lt;/code&gt; :  커밋 로그를 본다 (나오고 싶으면 q)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git log&lt;/code&gt; : 커밋 로그를 본다 (나오고 싶으면 q)&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git remote add origin 주소&lt;/code&gt; : 원격 브랜치를 등록&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git push origin main&lt;/code&gt;  : 원격(origin)의 메인에 푸쉬
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git push origin main&lt;/code&gt; : 원격(origin)의 메인에 푸쉬
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;2-클론-받아와서-작업하고-올려보자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%ED%81%B4%EB%A1%A0-%EB%B0%9B%EC%95%84%EC%99%80%EC%84%9C-%EC%9E%91%EC%97%85%ED%95%98%EA%B3%A0-%EC%98%AC%EB%A0%A4%EB%B3%B4%EC%9E%90&quot; aria-label=&quot;2 클론 받아와서 작업하고 올려보자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 클론 받아와서 작업하고 올려보자&lt;/h3&gt;
@@ -999,7 +944,7 @@ git checkout 브랜치명               &lt;span class=&quot;token operator&quot
 
 &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; 작업후 &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;
 
-git add &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;                &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 작업폴더에 있는 모든 변경사항을 스테이지로 
+git add &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;                &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 작업폴더에 있는 모든 변경사항을 스테이지로
 git commit &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;m &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;             &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 커밋합니다
 git push origin 브랜치           &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; origin이라는 이름의 원격 저장소의 브랜치 브랜치에 푸쉬
 
@@ -1112,7 +1057,7 @@ remote: Please see &lt;a href=&quot;https://github.blog/2020-12-15-token-authent
 &lt;p&gt;netlify는 정적 사이트 배포를 아주 아주 아주 아주 손쉽게 도와주는 서비스입니다 !
 깃허브와 연동도 되어서 레포지토리에 있는 프로젝트를 쉽게 배포 할 수 있습니다.&lt;/p&gt;
 &lt;h2 id=&quot;netlify&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#netlify&quot; aria-label=&quot;netlify permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;netlify&lt;/h2&gt;
-&lt;h3 id=&quot;1-httpswwwnetlifycom--가입하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-httpswwwnetlifycom--%EA%B0%80%EC%9E%85%ED%95%98%EA%B8%B0&quot; aria-label=&quot;1 httpswwwnetlifycom  가입하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. &lt;a href=&quot;https://www.netlify.com/&quot;&gt;https://www.netlify.com/&lt;/a&gt;  가입하기&lt;/h3&gt;
+&lt;h3 id=&quot;1-httpswwwnetlifycom-가입하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-httpswwwnetlifycom-%EA%B0%80%EC%9E%85%ED%95%98%EA%B8%B0&quot; aria-label=&quot;1 httpswwwnetlifycom 가입하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. &lt;a href=&quot;https://www.netlify.com/&quot;&gt;https://www.netlify.com/&lt;/a&gt; 가입하기&lt;/h3&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 836px; &quot;
@@ -1185,7 +1130,7 @@ remote: Please see &lt;a href=&quot;https://github.blog/2020-12-15-token-authent
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;
-메인 페이지 중간에 있는 &lt;code class=&quot;language-text&quot;&gt;New site from Git&lt;/code&gt;  눌러줍니다.&lt;/p&gt;
+메인 페이지 중간에 있는 &lt;code class=&quot;language-text&quot;&gt;New site from Git&lt;/code&gt; 눌러줍니다.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -1257,8 +1202,8 @@ remote: Please see &lt;a href=&quot;https://github.blog/2020-12-15-token-authent
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;배포할 브랜치를 정해줍니다.  &lt;/p&gt;
-&lt;p&gt;그리고 &lt;/p&gt;
+&lt;p&gt;배포할 브랜치를 정해줍니다.&lt;/p&gt;
+&lt;p&gt;그리고&lt;/p&gt;
 &lt;p&gt;빌드 세팅입니다!&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;html,css,자바스크립트로만! 만들었다면 아무것도 안쓰고 넘어가면 됩니다!&lt;/li&gt;
@@ -1322,31 +1267,11 @@ remote: Please see &lt;a href=&quot;https://github.blog/2020-12-15-token-authent
 &lt;h4 id=&quot;어려웠던-점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%96%B4%EB%A0%A4%EC%9B%A0%EB%8D%98-%EC%A0%90&quot; aria-label=&quot;어려웠던 점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;어려웠던 점&lt;/h4&gt;
 &lt;br&gt;
 &lt;p&gt;저는 처음에 빌드가, 빌드 커맨드가 뭔지도 모르면서 그냥 어디 인터넷에서 보고 npm run build를 때려박았습니다.&lt;br&gt;
-알고 보니 저는 html에 pug도 안썻고, css에 전처리기도 안썻고, 자바스크립트 라이브러리나 프레임워크도 쓰지 않았는데 사실 그러면 바닐라 자바스크립트는 빌드 할 필요가 없는 것이었어요! &lt;/p&gt;
+알고 보니 저는 html에 pug도 안썻고, css에 전처리기도 안썻고, 자바스크립트 라이브러리나 프레임워크도 쓰지 않았는데 사실 그러면 바닐라 자바스크립트는 빌드 할 필요가 없는 것이었어요!&lt;/p&gt;
 &lt;p&gt;맞아요 정답은 빌드 커맨드 쓰는곳에 아무것도 쓰지 않으면 되는 것이었습니다.&lt;/p&gt;
 &lt;p&gt;덕분에 npm도 깔아보고, 패키지 제이슨에 스크립트로 빌드도 웹팩이라고 한번 써보고 ,, 경험이 되었습니다.&lt;/p&gt;
 &lt;p&gt;반대로 다음에 Sass와 리액트를 쓴 프로젝트를 배포할땐 빌드 커맨드를 잘 써줘야 하고, 빌드 시에 모듈 번들러인 웹팩을 잘 활용하면 된다는걸 배웠습니다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CSS 내 맘대로 이동할거야!]]></title><description><![CDATA[내 맘대로 움직여주지 않는 내 div들 ,,
-제대로 움직이려면 두가지면 된다! 바로바로 와  ..! flex…]]></description><link>https://wook95.github.io/HTML/css-내-맘대로-이동할거야!/</link><guid isPermaLink="false">https://wook95.github.io/HTML/css-내-맘대로-이동할거야!/</guid><pubDate>Wed, 18 Aug 2021 23:08:55 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 52.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABwklEQVQoz52S31NSURDH+Yt7anrqrRp/BCG/TDNMRSUrnLEeMr2ACpcLihdwJC7QU9P00INpds0Q+LTnXJiRsR7y4TPnnt397tm7uz577Q35pVUKieStyS2tUH2VYvL+A3w0GnB4CJUK2P/CHvAXn9KVRd90WI/OSkIJvMybXBUsulaRXmmfXrGkz65Voi9nf//AY+Dra19Ro3RKT6VKMhiVhNWqNvYlsCMOd9vgIp3BNTL82t3jh9y/v9/kdPMD50aac/GdbRlc7uWEvKczC1Cr8XIq5iXUhoMyJxvvaEzPUA6GsR8H+PI6hRN7Sj0U5TgU4SgSox4MURPf5+g03zbeat1oQin1yrT0b3xNrdOaX8CJL9B69hxncZm2fNflEWX/FH9Bc3YOW5IXH45xIpUjrbiRUPWik8tTmoro6torSVpC+tE4lj+IOeGnnVyjuZigHI6RlbsxNsmRPNqVdnWE0QrF0JOk7s4uPzNZ6ZOHK9+qh6p3Z8Lp1ra2XWR3cAUVq3Qd83pCGf1vGYZ6SU9XTXHAcKLXGcYM425OufHR26ORffsfBnvoqD2cwZfwh5kbDxCfeHJrlH45EObunXv8AV1F1jloHjeJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;css position&quot;
-        title=&quot;css position&quot;
-        src=&quot;/static/251b3258facf9bdf16d7349d727c230f/c1b63/css_position.png&quot;
-        srcset=&quot;/static/251b3258facf9bdf16d7349d727c230f/5a46d/css_position.png 300w,
-/static/251b3258facf9bdf16d7349d727c230f/0a47e/css_position.png 600w,
-/static/251b3258facf9bdf16d7349d727c230f/c1b63/css_position.png 1200w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;
+제대로 움직이려면 두가지면 된다! 바로바로 와  ..! flex…]]></description><link>https://wook95.github.io/HTML/css-내-맘대로-이동할거야!/</link><guid isPermaLink="false">https://wook95.github.io/HTML/css-내-맘대로-이동할거야!/</guid><pubDate>Wed, 18 Aug 2021 23:08:55 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;./images/css_position.png&quot;&gt;
 &lt;br&gt;&lt;br&gt;
 내 맘대로 움직여주지 않는 내 div들 ,,&lt;br&gt;
 제대로 움직이려면 두가지면 된다! 바로바로 &lt;code class=&quot;language-text&quot;&gt;flex&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;position&lt;/code&gt; ..!&lt;/p&gt;
@@ -1510,14 +1435,14 @@ float의 가장 어려운 점은 자기 부모의 높이를 모른다는것..!
 &lt;p&gt;사실은 그냥 배경이미지가 아니라 : 컨텐츠에 필요해 첨부하는 사진이 아니라 디자인 적으로 배경이 되게 필요한 이미지!&lt;br&gt;img 태그의 사진은 컨텐츠에 필요한 사진!&lt;/p&gt;
 &lt;br&gt;
 img와 background 둘을 의미적으로 구분해서 써야한다
-&lt;p&gt;다만 background-image 속성을 쓰면 &lt;/p&gt;
+&lt;p&gt;다만 background-image 속성을 쓰면&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;seo에 악영향,&lt;/li&gt;
 &lt;li&gt;스크린 리더에서도 이미지라고 모르기 때문에 접근성 웹 표준에 안 좋고,&lt;/li&gt;
 &lt;li&gt;퍼포먼스도 안좋다,, css에서 이미지를 처리하기 때문에 다운로드 큐에서 밀린다 -&gt; 늦게 로딩&lt;/li&gt;
 &lt;/ol&gt;
 &lt;br&gt;
-&lt;p&gt;성능상 이렇게 다르고, 일반적으로 페이지에 들어가는  이미지를 쓰기 위해 background 사용은 자제하는게 좋을것 같다, 대신 말 그대로 배경 이미지 컨텐츠와 관련 없는 디자인 적인 요소로 쓰려고 할 때는 마냥 나쁘지는 않은것 같다!&lt;/p&gt;
+&lt;p&gt;성능상 이렇게 다르고, 일반적으로 페이지에 들어가는 이미지를 쓰기 위해 background 사용은 자제하는게 좋을것 같다, 대신 말 그대로 배경 이미지 컨텐츠와 관련 없는 디자인 적인 요소로 쓰려고 할 때는 마냥 나쁘지는 않은것 같다!&lt;/p&gt;
 &lt;p&gt;우리도 우리의 의미가 뭔지 자꾸 궁금해 하듯 컴퓨터한테도 이 HTML이 무슨 의미가 있는지 잘 알려줘야 겠다고 생각했다&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;
 참고&lt;/p&gt;
