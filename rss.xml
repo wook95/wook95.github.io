@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[wook's coding note]]></title><description><![CDATA[개발 일지]]></description><link>https://wook95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 04 Aug 2024 17:42:00 GMT</lastBuildDate><item><title><![CDATA[Angular 17로 2024년에 SSR 도입한 썰 (Angular Universal)]]></title><description><![CDATA[검색엔진 최적화를 위해 CSR로 구현된 회사 홈페이지를 SSR로 바꾸는 프로젝트에 투입 되었습니다. 초기 환경은 전임자가 1…]]></description><link>https://wook95.github.io/angular/angular-17로-2024년에-ssr-도입한-썰-(angular-universal)/</link><guid isPermaLink="false">https://wook95.github.io/angular/angular-17로-2024년에-ssr-도입한-썰-(angular-universal)/</guid><pubDate>Wed, 24 Jul 2024 18:07:28 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[wook's coding note]]></title><description><![CDATA[개발 일지]]></description><link>https://wook95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 01 Feb 2025 08:08:55 GMT</lastBuildDate><item><title><![CDATA[Angular 17로 2024년에 SSR 도입한 썰 (Angular Universal)]]></title><description><![CDATA[검색엔진 최적화를 위해 CSR로 구현된 회사 홈페이지를 SSR로 바꾸는 프로젝트에 투입 되었습니다. 초기 환경은 전임자가 1…]]></description><link>https://wook95.github.io/angular/angular-17로-2024년에-ssr-도입한-썰-(angular-universal)/</link><guid isPermaLink="false">https://wook95.github.io/angular/angular-17로-2024년에-ssr-도입한-썰-(angular-universal)/</guid><pubDate>Wed, 24 Jul 2024 18:07:28 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
@@ -64,7 +64,7 @@
 &lt;li&gt;&lt;a href=&quot;https://angular.dev/guide/ssr&quot;&gt;https://angular.dev/guide/ssr&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ksrae.github.io/angular/angular-universal/&quot;&gt;https://ksrae.github.io/angular/angular-universal/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://dev.to/jdgamble555/forcing-angular-to-wait-on-your-async-function-2ck1&quot;&gt;https://dev.to/jdgamble555/forcing-angular-to-wait-on-your-async-function-2ck1&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[zone, 앵귤러의 변경감지 알아보자 !]]></title><description><![CDATA[zone 은 비동기 실행들을 하나의 맥락(실행 컨텍스트)으로 다룰 수 있도록 해준다. 비동기 api들을 런타임(코드가 실행이 될 때)에 코드의 동작을 동적으로 업데이트() 해서, zone 자신의 api로 바꿔버려(), 비동기 api…]]></description><link>https://wook95.github.io/angular/zone,-앵귤러의-변경감지-알아보자-!/</link><guid isPermaLink="false">https://wook95.github.io/angular/zone,-앵귤러의-변경감지-알아보자-!/</guid><pubDate>Tue, 24 Jan 2023 11:01:47 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[zone, 앵귤러의 변경감지 알아보자 !]]></title><description><![CDATA[zone 은 비동기 실행들을 하나의 맥락(실행 컨텍스트)으로 다룰 수 있도록 해준다. 쉬운 말로 하면, 브라우저의 비동기 작업(예: setTimeout, Promise, XHR…]]></description><link>https://wook95.github.io/angular/zone,-앵귤러의-변경감지-알아보자-!/</link><guid isPermaLink="false">https://wook95.github.io/angular/zone,-앵귤러의-변경감지-알아보자-!/</guid><pubDate>Tue, 24 Jan 2023 11:01:47 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
@@ -87,23 +87,36 @@
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&quot;zone&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#zone&quot; aria-label=&quot;zone permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;zone&lt;/h3&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;zone.js&lt;/code&gt;은 비동기 실행들을 하나의 맥락(실행 컨텍스트)으로 다룰 수 있도록 해준다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;zone.js&lt;/code&gt;은 비동기 실행들을 하나의 맥락(실행 컨텍스트)으로 다룰 수 있도록 해준다.&lt;br&gt;
+쉬운 말로 하면, 브라우저의 비동기 작업(예: setTimeout, Promise, XHR 요청)을 감싸고, 각각의 작업이 완료된 후 애플플리케이션 상태를 다시 확인할 수 있도록 도와주는 라이브러리 !&lt;/p&gt;
+&lt;p&gt;앵귤러는 zone.js를 사용하여 &lt;strong&gt;앱의 상태가 변화했는지 감지&lt;/strong&gt;하고, 그 상태에 따라 &lt;strong&gt;DOM을 업데이트&lt;/strong&gt;한다. 앵귤러는 개발자가 변경 감지를 수동으로 호출하지 않아도 알아서 자동으로 DOM 업데이트를 처리한다.&lt;/p&gt;
+&lt;p&gt;더욱 자세히는,&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;비동기 api들을 런타임(코드가 실행이 될 때)에 코드의 동작을 동적으로 업데이트(&lt;code class=&quot;language-text&quot;&gt;몽키패치&lt;/code&gt;) 해서,&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;zone 자신의 api로 바꿔버려(&lt;code class=&quot;language-text&quot;&gt;후킹&lt;/code&gt;),&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;비동기 api들의 사용을 통지 받을 수 있고,&lt;/li&gt;
+&lt;li&gt;zone 자신의 api로 바꿔버려(&lt;code class=&quot;language-text&quot;&gt;후킹&lt;/code&gt;),&lt;/li&gt;
+&lt;li&gt;비동기 api들의 사용을 통지 받을 수 있기에,&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;따라서 비동기 컨텍스트를 하나로 관리 할 수 있도록 도와준다.&lt;/p&gt;
+&lt;p&gt;비동기 컨텍스트를 하나로 관리 할 수 있도록 도와준다.&lt;/p&gt;
+&lt;p&gt;예시&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;typescript&quot;&gt;&lt;pre class=&quot;language-typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;//Zone.js의 핵심 아이디어는 브라우저의 비동기 API를 감싸서(override 또는 monkey-patch) &quot;언제 상태가 바뀌는지 알아내는 것&quot;이다.&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;//Zone.js는 브라우저의 주요 비동기 함수들(예: setTimeout, addEventListener, fetch, Promise)를 가로채서(intercept) 내부적으로 자신의 &quot;Zone&quot; 컨텍스트로 래핑한다.&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;//예를 들어, setTimeout이 호출된 경우:&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; originalSetTimeout &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;setTimeout
+window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;setTimeout&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;callback&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; delay&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;originalSetTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    Zone&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;current&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;callback&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Zone에서 callback 실행&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; delay&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;//이 패칭된 setTimeout은 콜백 실행 직전에 등록된 Zone의 감시 툴을 실행. 이를 통해 비동기 작업 이후의 상태 변화를 감지가 가능하다.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;br/&gt;
 &lt;h3 id=&quot;변경감지&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%80%EA%B2%BD%EA%B0%90%EC%A7%80&quot; aria-label=&quot;변경감지 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;변경감지&lt;/h3&gt;
 &lt;p&gt;리액트를 사용할 때 재 랜더링에 대해 생각을 하면서 코딩을 하곤 했었다.&lt;br&gt;
-state, props의 변경과 부모컴포넌트의 재랜더링은 자식 컴포넌트를 다시 랜더링시키는데,&lt;br&gt;
-재랜더링을 하는 이유는 하면의 데이터를 바꾸기 위함이다.&lt;/p&gt;
-&lt;p&gt;앵귤러가 화면의 데이터를 바꾸는 방식은 변경감지(change detection)를 통해 바꾼다. 이는 다시 랜더링 시킨다는 말이다.&lt;/p&gt;
+state, props의 변경과 부모컴포넌트의 재랜더링은 자식 컴포넌트를 다시 랜더링시키는데 그 이유는 화면의 데이터를 바꾸기 위함이다.&lt;/p&gt;
+&lt;p&gt;앵귤러가 화면의 데이터를 바꾸는 방식은 변경감지(change detection)를 통해 이루어진다.&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;앵귤러는&lt;/p&gt;
 &lt;ul&gt;
@@ -196,6 +209,31 @@ state, props의 변경과 부모컴포넌트의 재랜더링은 자식 컴포넌
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;detectChanges&lt;/code&gt; 메소드는 &lt;code class=&quot;language-text&quot;&gt;즉시&lt;/code&gt; 자신과 자식 컴포넌트의 변경감지 순회를 시작한다. 즉시 해당 컴포넌트를 재랜더링 시키고 싶을 때 사용한다.&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;markForCheck&lt;/code&gt;는 &lt;code class=&quot;language-text&quot;&gt;변경감지 순회를 시작하는것이 아니라&lt;/code&gt;, 다음번 변경감지 순회때 순회를 시키도록 체크해 두는것이다.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h3 id=&quot;zone의-전역적인-변경감지와-성능&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#zone%EC%9D%98-%EC%A0%84%EC%97%AD%EC%A0%81%EC%9D%B8-%EB%B3%80%EA%B2%BD%EA%B0%90%EC%A7%80%EC%99%80-%EC%84%B1%EB%8A%A5&quot; aria-label=&quot;zone의 전역적인 변경감지와 성능 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;zone의 전역적인 변경감지와 성능&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;단일 “Zone” 컨텍스트가 모든 비동기 작업을 관리하기 때문에 전역적으로 동작한다.&lt;/li&gt;
+&lt;li&gt;비동기 작업의 공통적 처리&lt;br&gt;
+Zone.js는 모든 비동기 작업을 통합적으로 관리하여, 개발자가 상태 변경을 일일이 추적할 필요가 없도록 한다.&lt;/li&gt;
+&lt;li&gt;앵귤러의 모든 컴포넌트 관찰&lt;br&gt;
+Zone.js는 단순히 하나의 컴포넌트나 서비스의 상태만 추적하지 않는다. 애플리케이션 전체의 변경 가능성을 감지한다.
+이를 위해 Zone.js는 앵귤러의 루트 컴포넌트에서 시작하여 모든 하위 컴포넌트를 재검사한다. 이로 인해 변경 감지가 전역적으로 작동한다.&lt;/li&gt;
+&lt;li&gt;몽키패칭이 전역 API에 적용되기 때문&lt;br&gt;
+Zone.js는 DOM API와 브라우저 API를 전역적으로 패칭합니다. 특정 컴포넌트나 특정 작업만 추적하려면 Zone.js를 전역적으로 작동하게 설계하지 않아도 되지만, 브라우저 API 자체는 전역적이므로 전체 애플리케이션에서 사용할 수 있는 패칭을 제공해야 했다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;따라서 전역적인 변경감지로 인해 편하지만 성능상 단점이 존재한다.&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;모든 비동기 작업을 추적하므로 불필요한 오버헤드 발생&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;모든 비동기 작업에서 변경 감지가 발생할 가능성이 있고(일정 시간이 지난 타이머라도 변경 감지를 실행하는 등), 컴포넌트의 상태가 전혀 바뀌지 않았더라도 불필요한 DOM 계산과 검사 비용이 발생할 수 있다.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;의도치 않은 트리거 발생&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;특정 비동기 작업(Promise, 이벤트 핸들러, HTTP 요청 등)이 실제로는 DOM 업데이트를 필요로 하지 않지만, Zone.js는 무조건 변경 감지를 실행한다.&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;디버깅 어려움&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Zone.js로 인해 변경 감지가 언제, 어디서, 왜 발생했는지 추적하기가 어렵다. 이는 복잡한 애플리케이션에서 큰 문제가 될 수 있다.&lt;/p&gt;
+&lt;p&gt;따라서 앵귤러 개발팀은 앵귤러 16부터 시그널과 같은 방식으로 변경감지를 개선하고 있다.&lt;/p&gt;
 &lt;br/&gt;
 &lt;p&gt;참고&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://norux.me/64&quot;&gt;https://norux.me/64&lt;/a&gt;&lt;/p&gt;
