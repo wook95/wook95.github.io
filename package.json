@@ -7,6 +7,16 @@
   "bugs": {
     "url": "https://github.com/wook95/wook95.github.io/issues"
   },
+  "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b master",
+    "create": "gatsby-post-gen",
+    "post": "gatsby-post-gen",
+    "dev": "gatsby develop",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
+    "build": "gatsby build",
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+  },
   "dependencies": {
     "gatsby": "^2.2.8",
     "gatsby-cli": "^4.4.0",
@@ -78,17 +88,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wook95/wook95.github.io.git"
-  },
-  "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master",
-    "create": "gatsby-post-gen",
-    "post": "gatsby-post-gen",
-    "dev": "gatsby develop",
-    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "build": "gatsby build",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }
